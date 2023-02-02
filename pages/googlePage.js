@@ -18,8 +18,4 @@ exports.GooglePage = class GooglePage {
     await this.searchInput.fill(text);
     await this.searchInput.press('Enter');
   }
-
-  async pageObjectModel() {
-    await this.getGoogleSearch('selenium');
-  }
 }
